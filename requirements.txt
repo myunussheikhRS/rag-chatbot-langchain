@@ -1,5 +1,5 @@
 langchain-community==0.0.37
-langchain-ollama==0.3.7
+langchain-ollama==0.0.6
 annotated-types==0.7.0
 anyio==4.4.0
 async-timeout==4.0.3
