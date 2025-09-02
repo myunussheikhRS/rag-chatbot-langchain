@@ -61,7 +61,6 @@ posthog==3.5.2
 protobuf==4.25.4
 pyasn1==0.6.0
 pydantic==2.9.1
-pydantic-core==2.20.1
 pypdf==3.17.4
 pypika==0.48.9
 pytesseract==0.3.13
