@@ -28,11 +28,7 @@ jinja2==3.1.4
 jsonpatch==1.33
 jsonpointer==3.0.0
 kubernetes==29.0.0
-langchain==0.1.13
-langchain-community==0.0.29
-## langchain-core pin removed to resolve version conflict with langchain-ollama
-langchain-huggingface==0.0.3
-langchain-text-splitters==0.0.1
+## All langchain* packages except langchain-ollama removed to resolve dependency conflicts. Add back only if compatible with langchain-ollama.
 langsmith==0.1.109
 markdown-it-py==3.0.0
 markupsafe==2.1.5
