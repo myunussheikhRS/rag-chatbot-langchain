@@ -1,0 +1,5 @@
+# Streamlit configuration for cloud deployment
+[server]
+headless = true
+enableCORS = false
+port = 8501

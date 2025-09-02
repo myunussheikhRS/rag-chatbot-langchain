@@ -1,0 +1,9 @@
+# Add files and folders to be ignored by git
+__pycache__/
+*.pyc
+.env
+*.sqlite3
+*.bin
+*.log
+*.tmp
+/.streamlit/secrets.toml
