@@ -5,7 +5,6 @@ async-timeout==4.0.3
 attrs==24.2.0
 certifi==2024.7.4
 charset-normalizer==3.3.2
-## chroma-hnswlib pin removed to resolve version conflict with chromadb
 chromadb==0.4.22
 click==8.1.7
 colorama==0.4.6
@@ -22,15 +21,13 @@ httpcore==1.0.5
 httpx==0.27.0
 huggingface-hub==0.24.6
 idna==3.7
-## importlib-metadata pin removed to resolve conflict with opentelemetry-api
 importlib-resources==6.4.4
 jinja2==3.1.4
 jsonpatch==1.33
 jsonpointer==3.0.0
 kubernetes==29.0.0
-## All langchain* packages except langchain-ollama removed to resolve dependency conflicts. Add back only if compatible with langchain-ollama.
 langchain-openai==0.3.32
-langchain-google-genai
+langchain-google-genai==2.1.10
 langsmith==0.3.45
 markdown-it-py==3.0.0
 markupsafe==2.1.5
@@ -84,7 +81,6 @@ starlette==0.37.2
 streamlit==1.38.0
 sympy==1.13.2
 tenacity==8.5.0
-## tiktoken pin removed to resolve dependency conflict with langchain-openai and langchain-ollama
 tokenizers==0.19.1
 toml==0.10.2
 torch==2.4.1
