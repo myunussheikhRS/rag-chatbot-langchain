@@ -5,7 +5,7 @@ async-timeout==4.0.3
 attrs==24.2.0
 certifi==2024.7.4
 charset-normalizer==3.3.2
-chroma-hnswlib==0.7.6
+## chroma-hnswlib pin removed to resolve version conflict with chromadb
 chromadb==0.4.22
 click==8.1.7
 colorama==0.4.6
@@ -30,7 +30,7 @@ jsonpointer==3.0.0
 kubernetes==29.0.0
 langchain==0.1.13
 langchain-community==0.0.29
-langchain-core==0.1.32
+## langchain-core pin removed to resolve version conflict with langchain-ollama
 langchain-huggingface==0.0.3
 langchain-text-splitters==0.0.1
 langsmith==0.1.109
