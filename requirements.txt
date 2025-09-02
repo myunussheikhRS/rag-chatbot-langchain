@@ -31,7 +31,7 @@ kubernetes==29.0.0
 ## All langchain* packages except langchain-ollama removed to resolve dependency conflicts. Add back only if compatible with langchain-ollama.
 langchain-openai==0.3.32
 langchain-google-genai
-langsmith==0.1.109
+langsmith==0.3.45
 markdown-it-py==3.0.0
 markupsafe==2.1.5
 marshmallow==3.22.0
@@ -63,7 +63,7 @@ pillow==9.5.0
 posthog==3.5.2
 protobuf==4.25.4
 pyasn1==0.6.0
-pydantic==2.8.2
+pydantic==2.9.1
 pydantic-core==2.20.1
 pypdf==3.17.4
 pypika==0.48.9
