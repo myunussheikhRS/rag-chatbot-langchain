@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RAG chatbot powered by 🔗 Langchain, OpenAI, Google Generative AI and Hugging Face 🤗
 
 <div align="center">
@@ -37,3 +38,6 @@ To run the app locally:
 ## Blog post <a name="blog_post"></a>
 
 I wrote a blog post about this project. You can find it [here](https://medium.com/@alaeddine.grine/rag-chatbot-powered-by-langchain-openai-google-generative-ai-and-hugging-face-apis-6a9b9d7d59db)
+=======
+# rag-chatbot-langchain
+>>>>>>> fabb3aa1f32801c92114eb3fae063f9c8392465c
