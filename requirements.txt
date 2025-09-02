@@ -1,4 +1,4 @@
-langchain-ollama
+langchain-ollama==0.3.7
 annotated-types==0.7.0
 anyio==4.4.0
 async-timeout==4.0.3
@@ -29,7 +29,7 @@ jsonpatch==1.33
 jsonpointer==3.0.0
 kubernetes==29.0.0
 ## All langchain* packages except langchain-ollama removed to resolve dependency conflicts. Add back only if compatible with langchain-ollama.
-langchain-openai
+langchain-openai==0.3.32
 langchain-google-genai
 langsmith==0.1.109
 markdown-it-py==3.0.0
@@ -84,7 +84,7 @@ starlette==0.37.2
 streamlit==1.38.0
 sympy==1.13.2
 tenacity==8.5.0
-tiktoken==0.5.2
+## tiktoken pin removed to resolve dependency conflict with langchain-openai and langchain-ollama
 tokenizers==0.19.1
 toml==0.10.2
 torch==2.4.1
